@@ -284,12 +284,6 @@ public class Loan_Assistant extends javax.swing.JFrame {
 
     private void btn_ExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ExitActionPerformed
         System.exit(0);
-        /*if(!txt_MonthlyPayment.isEditable()){
-                interest=interest/1200;
-                ans=Math.pow(1+interest, month);
-                monthlyPayment = loan_amt * interest * ans/ (ans- 1);
-                txt_MonthlyPayment.setText(new DecimalFormat("0.00").format(monthlyPayment));
-                monthlyPayment=0;*/
     }//GEN-LAST:event_btn_ExitActionPerformed
 
     private void btn_ComputeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ComputeActionPerformed
